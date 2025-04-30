@@ -43,6 +43,10 @@
     #nav-burger:checked ~ .nav-options {
         display: flex;
     }
+    
+    .skills {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
 }
 
 @media ((min-width: 727px) and (max-width:1007px)) {
@@ -50,5 +54,20 @@
         font-size: 16px;
     }
 
+}
+
+@media (max-width:1007px) {
+
+    .about-container {
+        flex-direction: column;
+    }
+    
+    .about-container img {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+        width: 55%;
+    }
 
 }

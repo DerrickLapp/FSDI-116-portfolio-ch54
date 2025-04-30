@@ -1,0 +1,46 @@
+/* Main About Section */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.role_title {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.about-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+}
+
+
+/* Skills Section */
+.skill-section {
+    margin-top: 2rem;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+
